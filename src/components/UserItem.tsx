@@ -10,7 +10,7 @@ const UserItem:FC<UserItemProps>=({user})=>{
 	return(
 		<div style={{padding:15, border:'1px solid grey'}}
 		>
-			{user.id}.{user.name} проживает в городе {user.adress.city}
+			{user.id}.{user.name} проживает в городе {user.address.city}
 		</div>
 	)
 }

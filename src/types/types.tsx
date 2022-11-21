@@ -8,5 +8,5 @@ export interface IUser{
 	id:number,
 	name:string,
 	email?:string,
-	adress:IAdress
+	address:IAdress
 }

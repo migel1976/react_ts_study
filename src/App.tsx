@@ -4,6 +4,7 @@ import Card, {CardVariant} from './components/Card'
 import List from './components/List'
 import UserItem from './components/UserItem'
 import TodoItem from './components/TodoItem'
+import EventsExample from './components/EventsExample'
 import {IUser, ITodo} from './types/types'
 import axios from 'axios'
 
@@ -42,6 +43,7 @@ const App=()=>{
 
 	return (
 		<div>
+			<EventsExample />
 			<h1>
 				hello world
 			</h1>
